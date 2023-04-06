@@ -1,26 +1,21 @@
-tmux-uptime
-===========
+# tmux-uptime
 
-This is a mini plugin for [TPM](https://github.com/tmux-plugins/tpm).
+This plugin displays the current machine uptime.
 
-This plugin just display uptime. Only do it.
+## Installation
 
-## Usage
+This is a plugin for [tmux plugin
+manager](https://github.com/tmux-plugins/tpm). You can install it by adding the
+following line in your tmux config.
 
-Add #{uptime} format string to your existing status-right tmux option.
+```shell
+set -g @plugin 'tmux-contrib/tmux-uptime'
+```
 
-ex:
+## Getting Started
+
+You can use the `#{uptime}` variable in your existing status line.
 
 ```shell
 set-option -g status-right '#{uptime}'
 ```
-
-## Install
-
-[See](https://github.com/tmux-plugins/tpm#installation)
-
-## LICENSE
-
-[MIT](https://github.com/knakayama/tmux-uptime/blob/master/LICENSE.md)
-
-

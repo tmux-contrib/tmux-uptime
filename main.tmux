@@ -11,12 +11,12 @@
 # Example:
 #   set -g status-right "#{uptime} | %H:%M"
 
-_tmux_uptime_root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+_tmux_root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# shellcheck source=scripts/tmux_uptime_core.sh
-source "$_tmux_uptime_root_dir/scripts/tmux_uptime_core.sh"
+# shellcheck source=scripts/tmux_core.sh
+source "$_tmux_root_dir/scripts/tmux_core.sh"
 
-uptime="#($_tmux_uptime_root_dir/scripts/tmux_uptime.sh)"
+uptime="#($_tmux_root_dir/scripts/tmux_uptime.sh)"
 uptime_pattern="\#{uptime}"
 
 # Interpolate the uptime pattern in content.

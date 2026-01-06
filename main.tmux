@@ -58,7 +58,7 @@ _tmux_update_option() {
 	local option_value
 
 	option_value="$(_tmux_get_option "$option")"
-	option_value="$(tmux_interpolate "$option_value")"
+	option_value="$(_tmux_interpolate "$option_value")"
 
 	_tmux_set_option "$option" "$option_value"
 }
@@ -75,8 +75,8 @@ _tmux_update_option() {
 # Returns:
 #   0 on success
 main() {
-	tmux_update_option "status-right"
-	tmux_update_option "status-left"
+	_tmux_update_option "status-right"
+	_tmux_update_option "status-left"
 }
 
 main

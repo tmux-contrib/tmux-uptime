@@ -1,6 +1,6 @@
 # tmux-uptime
 
-A tmux plugin that displays system uptime in a human-readable format.
+Show system uptime in a compact, human-readable format in your tmux status bar.
 
 ## Installation
 

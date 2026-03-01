@@ -4,13 +4,13 @@ A tmux plugin that displays system uptime in a human-readable format.
 
 ## Installation
 
-```tmux
-# configure the tmux plugins manager
-set -g @plugin "tmux-plugins/tpm"
+Add this plugin to your `~/.tmux.conf`:
 
-# official plugins
+```tmux
 set -g @plugin 'tmux-contrib/tmux-uptime'
 ```
+
+And install it by running `<prefix> + I`.
 
 ## Usage
 
@@ -25,3 +25,33 @@ set -g status-right "#{uptime} | %H:%M"
 | Format String | Description                          |
 |---------------|--------------------------------------|
 | `#{uptime}`   | System uptime in human-readable form |
+
+## Development
+
+### Prerequisites
+
+Install dependencies using [Nix](https://nixos.org/):
+
+```sh
+nix develop
+```
+
+Or install manually: `bash`, `tmux`, `bats`
+
+### Running Tests
+
+```sh
+bats tests/
+```
+
+### Debugging
+
+Enable trace output with the `DEBUG` environment variable:
+
+```sh
+DEBUG=1 /path/to/tmux-uptime/scripts/tmux_uptime.sh
+```
+
+## License
+
+MIT

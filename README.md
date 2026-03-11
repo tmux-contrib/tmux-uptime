@@ -1,5 +1,7 @@
 # tmux-uptime
 
+[![Test](https://github.com/tmux-contrib/tmux-uptime/actions/workflows/test.yml/badge.svg)](https://github.com/tmux-contrib/tmux-uptime/actions/workflows/test.yml) [![Release](https://img.shields.io/github/v/release/tmux-contrib/tmux-uptime)](https://github.com/tmux-contrib/tmux-uptime/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Show system uptime in a compact, human-readable format in your tmux status bar.
 
 ## Installation

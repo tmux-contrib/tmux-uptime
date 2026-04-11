@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/tmux-contrib/tmux-uptime/compare/v0.2.0...v0.2.1) (2026-04-11)
+
+
+### Bug Fixes
+
+* add postCreateCommand to restore nix volume permissions ([c2f402b](https://github.com/tmux-contrib/tmux-uptime/commit/c2f402b4a00cad76db02bc69300d7571c6f2d12e))
+
 ## [0.2.0](https://github.com/tmux-contrib/tmux-uptime/compare/v0.1.0...v0.2.0) (2026-03-01)
 
 

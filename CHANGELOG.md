@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/tmux-contrib/tmux-uptime/compare/v0.2.2...v0.2.3) (2026-11-07)
+
+
+### Bug Fixes
+
+* **ci:** merge with the App token so main gets its CI run ([#35](https://github.com/tmux-contrib/tmux-uptime/issues/35)) ([e11081b](https://github.com/tmux-contrib/tmux-uptime/commit/e11081b0155ff6b85596e2b3095bb196fcbcedc3))
+
 ## [0.2.2](https://github.com/tmux-contrib/tmux-uptime/compare/v0.2.1...v0.2.2) (2026-05-04)
 
 
